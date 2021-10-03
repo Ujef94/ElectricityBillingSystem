@@ -1,0 +1,214 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('/img/Form.jpg');
+    background-size:cover;
+}
+
+.had
+{
+    color: white;
+    margin-top:-5px;
+    margin-inline-start: 39%;
+    font-size: 500%;
+}
+
+
+nav .navbar-nav li a:hover
+{
+    color:orange !important;
+    transition:0.6s;
+}
+h3{
+    margin-inline-end:30px ;
+}
+
+.nav-link
+ {
+     text-decoration: none;
+     color: white;
+ }
+
+ .nav-link:hover
+ {
+     color: orange;
+     transition:0.6s;
+ }
+
+ label
+ {
+     color: white;
+     margin-inline:0%;
+ }
+
+.row input
+{
+    border-radius: 10px;
+    outline: none;
+    border-style: none;
+    border:2px solid silver;
+    padding: 5px;
+    margin-left:700px;
+    margin-right: -600px;
+    width:250px;
+}
+.row input:hover
+{
+ border:3px solid orange;
+ padding: 6px;
+}
+
+.row1 input
+{
+    border-radius: 10px;
+    outline: none;
+    border-style: none;
+    border:2px solid silver;
+    padding: 5px;
+    margin-left:700px;
+    margin-right: -600px;
+    width:250px;
+}
+.row1 input:hover
+{
+ border:3px solid orange;
+ padding: 6px;
+}
+
+.row2 input
+{
+    border-radius: 10px;
+    outline: none;
+    border-style: none;
+    border:2px solid silver;
+    padding: 5px;
+    margin-left:700px;
+    margin-right: -600px;
+    width:250px;
+}
+.row2 input:hover
+{
+ border:3px solid orange;
+ padding: 6px;
+}
+
+.row3 input
+{
+    border-radius: 10px;
+    outline: none;
+    border-style: none;
+    border:2px solid silver;
+    padding: 5px;
+    margin-left:700px;
+    margin-right: -600px;
+    width:250px;
+}
+.row3 input:hover
+{
+ border:3px solid orange;
+ padding: 6px;
+}
+
+.row4 input
+{
+    border-radius: 10px;
+    outline: none;
+    border-style: none;
+    border:2px solid silver;
+    padding: 5px;
+    margin-left:700px;
+    margin-right: -600px;
+    background-color: white;
+    width:250px;
+}
+.row4 input:hover
+{
+ border:3px solid orange;
+ padding: 6px;
+}
+
+
+.row5 button{
+margin-inline-start: 3%;
+    margin-left: 900px;
+    margin-right:-600px;
+    width: 210px;
+    height: 38px;
+    background-color:transparent;
+    border-color: white;
+    color:white;
+    border-radius: 8px;
+    padding: 5px;
+    outline: none;
+}
+
+.row5 button:hover
+{
+    background-color: orange;
+    height: 39px;
+    font-size: 17px;
+    transition:1s;
+
+}
+
+.note{
+    color:white;
+    font-size: 15px;
+    margin-inline-start: 35pc;
+    margin-top: 45px;
+    font-family: scandia-web,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji!important;
+}
+.color
+{
+    color: rgb(241, 183, 75);
+
+}
+
+.serviceno
+{
+    color:white;
+}
+
+.error
+{
+    color:red;
+    margin-left:709px;
+    margin-right: -539px;
+}
+.error1
+{
+    color:red;
+    margin-left:700px;
+    margin-right: -551px;
+}
+
+.error2
+{
+    color:red;
+    margin-left:1078px;
+    margin-right: -551px;
+
+}
+
+.error3
+{
+    color:red;
+    margin-left:710px;
+    margin-right: -551px;
+}
+
+.error0
+{
+    color:red;
+    margin-left:705px;
+    margin-right: -551px;
+
+}
+
+
+
+

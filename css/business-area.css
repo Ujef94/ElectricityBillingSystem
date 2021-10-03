@@ -1,0 +1,159 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+h3{
+    margin-inline-end:30px ;
+}
+
+a
+{
+    color: white;
+}
+
+a:hover
+{
+    color: orange;
+}
+
+nav .navbar-nav li a:hover
+{
+    color:orange !important;
+}
+
+
+.nav-link
+{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-link:hover
+{
+    color: orange;
+}
+
+.cover.overlay.noimage {
+    background: url(/img/banner.jpg) 0px center/cover;
+    height: 240px;
+    color: #fff;
+    margin-top: 5px;
+}
+.cover.overlay .overlay.overlay-bg-none
+{
+    background: linear-gradient(to right,#616161,rgba(123,122,121,.1));
+}
+.cover.overlay .overlay.overlay-full {
+    top: 0;
+    height: 100%;
+}
+
+.text-h1{
+    margin-inline:100px;
+}
+
+.lead
+{
+    margin-inline: 100px;
+    font-weight:300;
+}
+
+.text-h1::after{
+    content: " ";
+    width:0%;
+    height: 2px;
+    background-color:orange;
+    display:block;
+
+    transition: 0.9s;
+}
+.text-h1:hover::after{
+       width:25%
+}
+.content .overview
+{
+    margin-top:3%;
+    margin-inline:13%;
+    background: linear-gradient(to right,#494964, #6f6f89);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.overview::after{
+    content: " ";
+    width:0%;
+    height: 2px;
+    background-color:orange;
+    display:block;
+    transition: 0.9s;
+}
+.overview:hover::after{
+       width:18%
+}
+.content p
+{
+    margin-inline: 13%;
+}
+
+.row
+{
+    position: relative;
+    height: 688px;
+
+}
+
+.end
+{
+    text-align: center;
+}
+.end p
+{
+
+    font-size:30px;
+    background:linear-gradient(to right,#46467a, #6f6f89);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent;
+}
+
+.end
+p::after{
+    content: " ";
+    width:0%;
+    height: 2px;
+    background-color:orange;
+    display:block;
+    margin: auto;
+    transition: 0.5s;
+}
+.end
+p:hover::after{
+       width:15%
+}
+
+.end-img
+{
+    display:flex;
+}
+.end-img img{
+
+    width:24px;
+    height:auto;
+
+}
+.end-img .one{
+
+    margin-right: 40px;
+    margin-left: 650px;
+}
+
+.end-img .two{
+    width:26px;
+    height:auto;
+    margin-right: 40px;
+}
+
+.end-img .three{
+    margin-right: 40px;
+}

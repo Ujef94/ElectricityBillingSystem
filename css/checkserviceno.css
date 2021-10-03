@@ -1,0 +1,83 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-image: url(/img/anthony-indraus-Bb9jWuTMPUk-unsplash.jpg);
+    background-size: cover;
+}
+
+.form input
+{
+    border-radius: 20px;
+    width: 18.5%;
+    height: 36px;
+    margin:8px;
+    padding: 16px;
+    border-style: none;
+    border:2px solid silver;
+    margin-inline-start: 64%;
+    font-size: 17px;
+    outline: none;
+}
+
+.form input:hover
+{
+    border: 3px solid orange;
+}
+h1
+{
+    color: white;
+    margin-top:289px;
+    margin-inline-start: 63%;
+}
+h3{
+    color: white;
+    text-decoration:none;
+    padding: 6px;
+    margin-inline-start: 65%;
+    font-size:17px
+
+}
+h3:hover
+{
+    color: orange;
+}
+
+.btn
+{
+    margin-inline-start: 3%;
+    margin-left: 25%;
+    margin-right: -21%;
+    width: 88px;
+    height: 29px;
+    background-color:transparent;
+    border-color: white;
+    color:white;
+    border-radius: 3px;
+    border: radius 10px;
+    padding: 5px;
+    outline: none;
+}
+
+.btn:hover
+{
+    background-color:orange;
+    height: 30px;
+    font-size:15px;
+}
+.text-danger
+{
+    color:red;
+     margin-inline-start: 65%;
+
+}
+.danger
+{
+    color:red;
+    margin-inline-start: 989px;
+}

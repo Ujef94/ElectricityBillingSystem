@@ -1,0 +1,61 @@
+*{
+
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+}
+td{
+    border-style: hidden;
+}
+h3{
+    margin-inline-end:30px ;
+}
+
+a
+{
+    color: white;
+}
+
+a:hover
+{
+    color: orange;
+}
+
+nav .navbar-nav li a:hover
+{
+    color:orange !important;
+}
+
+.carousel-inner{
+     height: 500px;
+ }
+
+ .item img{
+     height: 100% !important;
+     width:  100% !important;
+ }
+
+ .nav-link
+ {
+     text-decoration: none;
+     color: white;
+ }
+
+ .nav-link:hover
+ {
+     color: orange;
+ }
+
+ h2::after{
+     content: " ";
+     width:0%;
+     height: 2px;
+     background-color:orange;
+     display:block;
+     transition: 0.5s;
+
+ }
+
+ h2:hover::after{
+        width:25%
+ }

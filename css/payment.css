@@ -1,0 +1,115 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(/img/rupee-4398428_1280.jpg);
+    background-size: cover;
+    image-resolution: 10px;
+}
+.head h1{
+    color: white;
+    font-size: 100px;
+    margin-left: 808px;
+    margin-top: 100px;
+}
+
+.row input
+{
+    border-radius: 10px;
+    outline: none;
+    border-style: none;
+    border:2px solid silver;
+    padding: 5px;
+    margin-left:850px;
+    margin-right: -714px;
+    width:250px;
+    margin-top:10px;
+}
+.row input:hover
+{
+ border:3px solid orange;
+ padding: 6px;
+}
+
+.row1 input
+{
+    border-radius: 10px;
+    outline: none;
+    border-style: none;
+    border:2px solid silver;
+    padding: 5px;
+    margin-left:850px;
+    margin-right: -714px;
+    width:250px;
+}
+.row1 input:hover
+{
+ border:3px solid orange;
+ padding: 6px;
+}
+
+.row5 button{
+    margin-inline-start: 3%;
+        margin-left: 1066px;
+        margin-right:-600px;
+        width: 210px;
+        height: 38px;
+        background-color:transparent;
+        border-color: white;
+        color:white;
+        border-radius: 8px;
+        padding: 5px;
+        outline: none;
+    }
+
+    .row5 button:hover
+    {
+        background-color: orange;
+        height: 39px;
+        font-size: 17px;
+        transition:0.3s;
+
+    }
+
+
+h3{
+    margin-inline-end:30px ;
+}
+
+a
+{
+    color: white;
+}
+
+a:hover
+{
+    color: orange;
+}
+
+nav .navbar-nav li a:hover
+{
+    color:orange !important;
+}
+
+.carousel-inner{
+     height: 500px;
+ }
+
+ .item img{
+     height: 100% !important;
+     width:  100% !important;
+ }
+
+ .nav-link
+ {
+     text-decoration: none;
+     color: white;
+ }
+
+ .nav-link:hover
+ {
+     color: orange;
+ }

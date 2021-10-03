@@ -1,0 +1,282 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box;
+}
+
+h3{
+    margin-inline-end:30px ;
+}
+
+a
+{
+    color: white;
+}
+
+a:hover
+{
+    color: orange;
+}
+
+nav .navbar-nav li a:hover
+{
+    color:orange !important;
+}
+
+.carousel-inner{
+     height: 500px;
+ }
+
+ .item img{
+     height: 100% !important;
+     width:  100% !important;
+ }
+
+ .nav-link
+ {
+     text-decoration: none;
+     color: white;
+ }
+
+ .nav-link:hover
+ {
+     color: orange;
+ }
+
+ .col-lg-4 img
+ {
+     border: 3px solid gray;
+     border-radius: 140px;
+     width: 140px;
+     height: 140px;
+     z-index: -2;
+ }
+
+ .col-lg-4 img:hover
+ {
+     border: 3px solid gray;
+     border-radius: 140px;
+     width: 145px;
+     height: 145px;
+     z-index: -2;
+ }
+
+
+ .container
+ h2{
+     text-align: center;
+    margin-top: 7%;
+    color:black;
+    z-index: -2;
+ }
+ .container
+ h2::after{
+     content: " ";
+     width:0%;
+     height: 2px;
+     background-color:orange;
+     display:block;
+     margin: auto;
+     transition: 0.5s;
+ }
+ .container
+ h2:hover::after{
+        width:40%
+ }
+
+ .container
+ h1{
+     text-align: center;
+     margin-top: 9%;;
+     background:linear-gradient(to right,#494964, #6f6f89);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color:transparent;
+ }
+ .container
+ h1::after{
+     content: " ";
+     width:0%;
+     height: 2px;
+     background-color:orange;
+     display:block;
+     margin: auto;
+     transition: 0.5s;
+ }
+ .container
+ h1:hover::after{
+        width:20%
+ }
+
+ .container p{
+     text-align: center;
+     margin-bottom: 3%;
+     color:gray;
+     z-index: -2;
+
+ }
+ background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url('/img/paul-zoetemeijer-QuiM1c65QM4-unsplash.jpg');
+.image
+{
+    background-color: aliceblue;
+    box-shadow: silver 5px 10px;
+    background-size: cover;
+    filter: blur(-8px);
+    -webkit-filter: blur(-8px);
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.col-lg-4 a{
+    text-decoration: none;
+    outline: none;
+    border :2px solid gray;
+    background-color: white;
+    color: black;
+}
+.col-lg-4 a:hover{
+    background-color:orange;
+    transition:0.8s;
+}
+
+.leftimage
+{
+    margin-top:7%;
+}
+
+.featurette-heading
+{
+    margin-top:20%;
+}
+
+.col-md-5 img {
+    margin-inline-start: 8%;
+    filter: drop-shadow(0px 5px 3px black);
+    animation:drop 1.5s ease;
+}
+
+@keyframes drop {
+    0% {
+        opacity: 0;
+        transform: translateY(-80px);
+    }
+    100%
+    {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+.col-md-7 h2
+{
+    margin-inline: 10%;
+    font-size: 50px !important;
+}
+.col-md-7 p
+{
+    margin-inline:10% ;
+}
+
+ .col-md-5
+{
+    flex: 1;
+}
+
+.two-box{
+
+    margin-top: 7%;
+    margin-left: 9%;
+    margin-right:7%;
+    background-color:none;
+}
+ .gray .col-md-6 .h-100
+{
+    box-shadow: 10px 10px 10px 10px;
+}
+
+.gray .col-md-6 .ge:hover
+{
+    color: black;
+    background-color: rgb(248, 248, 248);
+}
+.two-box{
+    filter: drop-shadow(0px 5px 3px black);
+}
+
+ .col-md-6 .h-100
+{
+    color:black;
+    background-color: rgb(248, 248, 248);
+
+}
+
+.col-md-6 .btn:hover{
+    background-color:white;
+    color:black;
+    border-color: white;
+}
+.gray .h-100
+{
+    color:white;
+    background-color:orange;
+}
+
+.col-md-6 .h-100:hover
+{
+    background-color:orange;
+    color:white;
+}
+
+.end
+{
+    text-align: center;
+}
+.end p
+{
+    margin-top: 7%;
+    font-size:30px;
+    background:linear-gradient(to right,#46467a, #6f6f89);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent;
+}
+
+.end
+p::after{
+    content: " ";
+    width:0%;
+    height: 2px;
+    background-color:orange;
+    display:block;
+    margin: auto;
+    transition: 0.5s;
+}
+.end
+p:hover::after{
+       width:15%
+}
+
+.end-img
+{
+    display:flex;
+}
+.end-img img{
+
+    width:24px;
+    height:auto;
+
+}
+.end-img .one{
+
+    margin-right: 40px;
+    margin-left: 650px;
+}
+
+.end-img .two{
+    width:26px;
+    height:auto;
+    margin-right: 40px;
+}
+
+.end-img .three{
+    margin-right: 40px;
+}

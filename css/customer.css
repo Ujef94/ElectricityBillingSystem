@@ -1,0 +1,74 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.newconnection
+{
+    box-shadow: 2px 2px 3px 3px silver;
+    width: 92px;
+    height: auto;
+    margin:10px;
+    padding: 5px;
+    margin-left: 37px;
+}
+.newconnection:hover
+{
+    box-shadow: 2px 2px 4px 4px silver;
+    width:83px;
+    height: auto;
+    margin:11;
+    padding:auto;
+}
+
+.delete_record
+{
+    box-shadow: 2px 2px 3px 3px silver;
+    width: 100px;
+    height: auto;
+    margin:10px;
+    padding: 5px;
+    margin-left: 137px;
+
+}
+.delete_record:hover
+{
+    box-shadow: 2px 2px 4px 4px silver;
+    width:92px;
+    height: auto;
+    margin:11;
+    padding:auto;
+}
+.link{
+      color:black;
+      outline: none;
+      margin-inline: 10px;
+      font-size: 1.37em;
+}
+.delete
+{
+    color:black;
+    outline: none;
+    margin-inline: 50px;
+    font-size: 1.37em;
+}
+
+nav .navbar-nav li a:hover
+{
+    color:orange !important;
+}
+h3{
+    margin-inline-end:30px ;
+}
+
+.nav-link
+ {
+     text-decoration: none;
+     color: white;
+ }
+
+ .nav-link:hover
+ {
+     color: orange;
+ }
